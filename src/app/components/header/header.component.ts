@@ -9,8 +9,8 @@ export class Header {
   @Input()
   rootClassName: string = ''
   @Input()
-  heading11: string = 'OVS 360 Solutions'
+  heading11: string = 'OVS360 Solutions'
   @Input()
-  heading1: string = 'OVS 360 Solutions'
+  heading1: string = 'OVS360 Solutions'
   constructor() {}
 }

@@ -8,11 +8,11 @@ import { Title, Meta } from '@angular/platform-browser'
 })
 export class Home {
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('OVS 360 Solutions')
+    this.title.setTitle('OVS360 Solutions')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'OVS 360 Solutions',
+        content: 'OVS360 Solutions',
       },
     ])
   }
